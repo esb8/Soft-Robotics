@@ -22,7 +22,3 @@ This project features a soft-robotics controller built around an ESP32 with an o
 - **Photoresistors:** GL5528/VT90N2 + 10–100 kΩ divisor to 3.3 V (tune for range)
 - **Regulation:** 2S LiPo input, 3.3 V 2.4 V and 1.8 V (LDO) for ESP32 & logic
 - **Connectors:** JST-VH for magnets, JST-PH for I/O, 2×5 SPI, 1×6 UART
-
-
-## Citation
-If this helps your research or project, please cite this repository and star it 🌟
