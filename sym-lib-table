@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_S3_WROOM_1_N16R8")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/2025-08-12_22-17-10.kicad_sym")(options "")(descr ""))
+)
