@@ -12231,6 +12231,16 @@
 		)
 		(uuid "01359cbd-9afa-4f57-9177-c96237bf0145")
 	)
+	(label "PMODE1"
+		(at 67.31 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0189215f-ecaa-40d4-89f3-a7ff3eb361cf")
+	)
 	(label "OUT1_B"
 		(at 59.69 179.07 180)
 		(effects
@@ -12471,6 +12481,16 @@
 		)
 		(uuid "3ac5ecc0-6807-430c-85a6-b69bc60f802a")
 	)
+	(label "PMODE2"
+		(at 93.98 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3df3de8c-e4f5-4c2a-b492-02d1bb9fda66")
+	)
 	(label "SCLK1"
 		(at 124.46 41.91 0)
 		(effects
@@ -12671,6 +12691,16 @@
 		)
 		(uuid "76e2e5cf-d9ec-45ac-92fd-375c6c10dc91")
 	)
+	(label "PMODE1"
+		(at 96.52 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76eacd5c-c4df-4c3f-b3fa-4ab46c07813b")
+	)
 	(label "HREF"
 		(at 220.98 111.76 180)
 		(effects
@@ -12770,16 +12800,6 @@
 			(justify left bottom)
 		)
 		(uuid "89afd995-dfc8-4db2-a8df-2bf9b395979f")
-	)
-	(label "nSLEEP_A"
-		(at 135.89 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8a44892b-fb14-46fd-a092-cebcb95f24e3")
 	)
 	(label "BOOT"
 		(at 133.35 162.56 180)
@@ -13260,6 +13280,16 @@
 			(justify left bottom)
 		)
 		(uuid "f6fc823e-b990-4e4f-a204-47135580e55a")
+	)
+	(label "PMODE2"
+		(at 67.31 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8caf2f6-bf8e-4ece-83b3-b76f7207b714")
 	)
 	(label "Y3"
 		(at 21.59 27.94 0)
@@ -18119,6 +18149,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 62.23 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "554c67c8-3d4b-45d5-bc95-0745eeb3382e")
+		(property "Reference" "J12"
+			(at 62.23 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b74641bf-7fe5-4b11-a5e5-f876f40321d3")
+		)
+		(pin "2"
+			(uuid "7e77176f-e76e-4c3e-bca0-c6ae162598e0")
+		)
+		(instances
+			(project "soft_robot_cam"
+				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VD")
 		(at 163.83 119.38 270)
 		(unit 1)
@@ -22353,6 +22460,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C99102"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fb27608-9c7a-4c84-ad2b-31b995b172d4")
 		)
@@ -23376,10 +23492,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95f6f84f-a0d0-43cb-845e-45c0c271e0f0")
 		(property "Reference" "J6"
-			(at 45.72 88.9 0)
+			(at 42.418 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23392,6 +23507,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-PH-K-S"
@@ -27298,10 +27414,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce96fca8-de32-4543-b081-7b481d317192")
 		(property "Reference" "J7"
-			(at 45.72 96.52 0)
+			(at 42.164 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27314,6 +27429,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-PH-K-S"
