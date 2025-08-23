@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "height": 0.889,
+          "width": 0.889
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -198,7 +198,9 @@
         0.2794,
         0.3048,
         0.381,
-        0.508
+        0.508,
+        0.508,
+        0.635
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -633,8 +635,38 @@
         },
         {
           "group_by": false,
+          "label": "Continuous Drain Current (Id)",
+          "name": "Continuous Drain Current (Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "DC Current Gain (hFE@Ic,Vce)",
           "name": "DC Current Gain (hFE@Ic,Vce)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source Voltage (Vdss)",
+          "name": "Drain Source Voltage (Vdss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Capacitance (Ciss@Vds)",
+          "name": "Input Capacitance (Ciss@Vds)",
           "show": false
         },
         {
@@ -687,6 +719,12 @@
         },
         {
           "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Power Dissipation (Pd)",
           "name": "Power Dissipation (Pd)",
           "show": false
@@ -735,6 +773,12 @@
         },
         {
           "group_by": false,
+          "label": "Total Gate Charge (Qg@Vgs)",
+          "name": "Total Gate Charge (Qg@Vgs)",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Transistor Type",
           "name": "Transistor Type",
           "show": false
@@ -761,48 +805,6 @@
           "group_by": false,
           "label": "Capacitance",
           "name": "Capacitance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Attrition Qty",
-          "name": "Attrition Qty",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
-          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Drain Source Voltage (Vdss)",
-          "name": "Drain Source Voltage (Vdss)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
-          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Input Capacitance (Ciss@Vds)",
-          "name": "Input Capacitance (Ciss@Vds)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Continuous Drain Current (Id)",
-          "name": "Continuous Drain Current (Id)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Total Gate Charge (Qg@Vgs)",
-          "name": "Total Gate Charge (Qg@Vgs)",
           "show": false
         }
       ],
