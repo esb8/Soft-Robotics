@@ -10961,12 +10961,6 @@
 		(uuid "5e10147b-387d-4f59-8f86-3919ba7b9ee9")
 	)
 	(junction
-		(at 273.05 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e48c6f0-9042-4d96-bfb1-014afdffc468")
-	)
-	(junction
 		(at 200.66 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11796,16 +11790,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 154.94) (xy 273.05 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b6f6d4-cb7c-475a-a68d-748cf1d97446")
-	)
-	(wire
-		(pts
 			(xy 181.61 33.02) (xy 186.69 33.02)
 		)
 		(stroke
@@ -11853,6 +11837,16 @@
 			(type default)
 		)
 		(uuid "3e4c8221-ad43-4854-9aa2-a0f832c26181")
+	)
+	(wire
+		(pts
+			(xy 270.51 153.67) (xy 270.51 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb8acbf-7a02-4083-9301-a100e9000d7a")
 	)
 	(wire
 		(pts
@@ -12576,6 +12570,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 144.78) (xy 270.51 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ba3de7-22bb-4df9-9295-a2ae57187063")
+	)
+	(wire
+		(pts
 			(xy 182.88 77.47) (xy 182.88 76.2)
 		)
 		(stroke
@@ -12646,7 +12650,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 154.94) (xy 270.51 154.94)
+			(xy 270.51 154.94) (xy 275.59 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13966,7 +13970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 162.56 0)
+		(at 270.51 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13974,7 +13978,7 @@
 		(dnp no)
 		(uuid "02c4a29b-4899-4b22-a129-614975754993")
 		(property "Reference" "#PWR077"
-			(at 270.51 168.91 0)
+			(at 270.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +13987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.336 162.306 0)
+			(at 270.51 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13991,7 +13995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 162.56 0)
+			(at 270.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +14004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 162.56 0)
+			(at 270.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,7 +14013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 162.56 0)
+			(at 270.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,6 +14214,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 104.14 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 104.14 177.8 0)
 			(effects
 				(font
@@ -14972,6 +14984,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 146.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c170d496-24e6-4009-a25a-fe8379886e97")
 		)
@@ -15202,6 +15222,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 189.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d16e0e59-dd9b-4c81-bb38-cd64ae010ee8")
 		)
@@ -15399,6 +15427,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 146.05 29.21 0)
 			(effects
 				(font
@@ -15620,6 +15656,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16039,6 +16083,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f3649982-5f30-4a56-bcfc-9314400f4a6f")
 		)
@@ -16257,6 +16309,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9308c5ee-252b-4f93-a5d4-d600a665e8c8")
 		)
@@ -16363,7 +16423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:IND-SMD_L6.0-W6.0_SRN6045"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L6.0-W6.0"
 			(at 176.53 25.4 0)
 			(effects
 				(font
@@ -16372,7 +16432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_SWPA6028S6R8MT_C42261.html"
+		(property "Datasheet" ""
 			(at 176.53 22.86 0)
 			(effects
 				(font
@@ -16381,7 +16441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3A 6.8uH Magnetic Shielded Inductor ±20% SMD,6x6mm Power Inductors ROHS"
 			(at 176.53 33.02 0)
 			(effects
 				(font
@@ -16390,7 +16450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C42261"
+		(property "LCSC" "C341066"
 			(at 176.53 20.32 0)
 			(effects
 				(font
@@ -16399,22 +16459,12 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42370386"
+		(property "Name" ""
 			(at 176.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SWPA6028S6R8MT"
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16752,6 +16802,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f0bbfd0-6d85-4343-925c-c05e06a369d1")
 		)
@@ -16822,6 +16880,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 213.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16985,6 +17051,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -17240,6 +17314,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0dbf0cb1-dccb-4602-a4d2-ed9bda95af32")
 		)
@@ -17321,6 +17403,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -17695,6 +17785,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 191.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 191.77 68.58 0)
 			(effects
 				(font
@@ -18168,6 +18266,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c53a9bd-06fe-484c-9448-8feac016ab20")
 		)
@@ -18236,15 +18342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
-			(at 59.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C41370696"
+		(property "LCSC" "C22438179"
 			(at 59.69 93.98 0)
 			(effects
 				(font
@@ -18501,6 +18599,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 199.39 138.43 0)
 			(effects
 				(font
@@ -18773,6 +18879,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 186.69 38.1 0)
 			(effects
 				(font
@@ -19469,6 +19583,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 41.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "940bbfa7-126f-4d73-b87c-00360587a53f")
 		)
@@ -19735,6 +19857,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b36f3bf-aaf7-4431-b9f1-1b69551a9520")
 		)
@@ -19956,6 +20086,14 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 266.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5a12113-e1f6-4549-82a3-4e95bc5e500a")
 		)
@@ -20034,6 +20172,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -20338,6 +20484,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79a46ec3-725f-4b4b-b062-c2e1e61cd764")
 		)
@@ -20563,6 +20717,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 55.88 165.1 0)
 			(effects
 				(font
@@ -20867,6 +21029,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc5960fe-1ac2-4c87-8c6f-fe857be67dc4")
 		)
@@ -21064,6 +21234,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 259.08 66.04 0)
 			(effects
 				(font
@@ -21275,6 +21453,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 260.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cc7f313-c18c-4827-9d3f-8d9415e4b0a7")
 		)
@@ -21315,7 +21501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "easyeda2kicad:FPC-SMD_AFC07-S24ECA-00"
 			(at 16.51 50.8 0)
 			(effects
 				(font
@@ -21333,7 +21519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x24, script generated"
+		(property "Description" "Slide Lock 24P Top Contact Surface Mount, Right Angle 0.5mm SMD,P=0.5mm,Surface Mount,Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
 			(at 16.51 50.8 0)
 			(effects
 				(font
@@ -21352,6 +21538,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 16.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 16.51 50.8 0)
 			(effects
 				(font
@@ -21628,6 +21822,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4dcd7c0-7ee5-44bc-9a7c-9603558bebeb")
 		)
@@ -21850,6 +22052,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22147,6 +22357,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb78d5df-8f30-48fe-9fd5-c05251e39573")
 		)
@@ -22376,6 +22594,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 46.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "957a886a-f1b5-4f66-a19a-453298b847e3")
 		)
@@ -22572,6 +22798,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 99.06 134.62 0)
 			(effects
 				(font
@@ -22875,6 +23109,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 189.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0dd6b033-96c6-4e11-a511-21a72885949a")
 		)
@@ -23143,6 +23385,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 104.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fe3a068-74dd-4e95-8028-31becb2eaca2")
 		)
@@ -23389,6 +23639,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9a36f42-b8a1-438f-809d-4de027c457de")
 		)
@@ -23476,6 +23734,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -23810,6 +24076,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c6781e6-fd1f-4ced-ad80-0bad0d259418")
 		)
@@ -24014,6 +24288,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 152.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04c4ea71-d8b4-43f7-b705-9efa331d5120")
 		)
@@ -24094,6 +24376,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 138.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 138.43 156.21 0)
 			(effects
 				(font
@@ -24193,6 +24483,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "11"
@@ -24436,6 +24734,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 199.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 199.39 38.1 0)
 			(effects
 				(font
@@ -24705,6 +25011,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 97.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 97.79 185.42 0)
 			(effects
 				(font
@@ -25048,6 +25362,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fe9ee3e-df64-4d46-8ea4-f88b7708b78b")
 		)
@@ -25344,6 +25666,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42df3f2d-5700-4935-be70-2c906a898b29")
 		)
@@ -25489,6 +25819,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 20.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 20.32 105.41 0)
 			(effects
 				(font
@@ -25726,6 +26064,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a5989e0-1cdb-414e-9e1b-e9c058e04512")
 		)
@@ -25810,6 +26156,14 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39b35e45-2f0f-4b80-9639-0581223cc1d6")
 		)
@@ -25855,12 +26209,13 @@
 				)
 			)
 		)
-		(property "Value" "JFC1206-1450FS"
+		(property "Value" "BHFUSE BSMD1206C-1700T"
 			(at 153.67 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:F1206"
@@ -25881,7 +26236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "150A Surface Mount Fuse 7A 32V 1206 Disposable fuses ROHS"
 			(at 153.67 144.78 0)
 			(effects
 				(font
@@ -25892,6 +26247,15 @@
 		)
 		(property "LCSC Part" "C41367230"
 			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41367230"
+			(at 153.67 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26112,6 +26476,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -26407,6 +26779,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 34.29 125.73 0)
 			(effects
 				(font
@@ -26818,6 +27198,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 46.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d6b4e684-01d7-4d8d-b179-d3c66fe2b6ac")
 		)
@@ -27174,6 +27562,14 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af573f55-4821-4d0e-a7b2-ed64bbbb3bff")
 		)
@@ -27252,6 +27648,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -27629,6 +28033,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4b9d343-8020-4113-a7ae-e46ca0327a32")
 		)
@@ -27984,6 +28396,14 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f902ba30-2cab-4515-b7bc-a9297a04e03c")
 		)
@@ -28183,6 +28603,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 106.68 134.62 0)
 			(effects
 				(font
@@ -28460,6 +28888,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "95a116fb-b65b-4087-978d-44e485a9701d")
 		)
@@ -28543,6 +28979,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -28909,6 +29353,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fcbd573-539c-4176-b172-0aeeb26467d0")
 		)
@@ -29112,6 +29564,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9f93eb9-cb8d-4593-930c-7c7847243324")
 		)
@@ -29308,6 +29768,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -29537,6 +30005,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -29819,7 +30295,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 273.05 149.86 90)
+		(at 275.59 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29828,7 +30304,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8e61898-8755-48c7-80c3-ccf8439fb4ac")
 		(property "Reference" "TP2"
-			(at 275.59 148.5899 90)
+			(at 278.13 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29838,7 +30314,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 275.59 151.1299 90)
+			(at 278.13 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29848,7 +30324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 149.86 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29857,7 +30333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 149.86 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29866,12 +30342,20 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 273.05 149.86 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 275.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -30104,6 +30588,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "decdc495-1d0f-4b48-919c-b94d158a571f")
 		)
@@ -30189,6 +30681,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05962db3-58a5-4e29-8b93-092c479af5e1")
 		)
@@ -30267,6 +30767,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 20.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 20.32 97.79 0)
 			(effects
 				(font
@@ -30543,6 +31051,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39b61912-33dd-4c53-affb-db1e1edee97e")
 		)
@@ -30746,6 +31262,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 205.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b1a4497-34ae-419c-be1b-3d3493e18dce")
 		)
@@ -30942,6 +31466,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 189.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 189.23 102.87 0)
 			(effects
 				(font
@@ -31311,6 +31843,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 181.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "744148ee-1829-49d3-aa23-e6b21a41e295")
 		)
@@ -31580,6 +32120,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e40b7ae1-7cb5-4abb-9ceb-6f2234a18f78")
 		)
@@ -31839,6 +32387,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 50.8 125.73 0)
 			(effects
 				(font
@@ -32115,6 +32671,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "104309c2-efba-4a69-ab4e-8641579819cd")
 		)
@@ -32330,6 +32894,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 149.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "3597c732-f1e5-4382-a9e8-a2735a680716")
 		)
@@ -32536,6 +33108,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21be41f4-1368-41a0-9c31-916edf8eb3e2")
 		)
@@ -32670,6 +33250,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -32872,6 +33460,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 48.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "654a5a56-8035-4367-903e-84e14b286dc6")
 		)
@@ -32956,7 +33552,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 144.78 180)
+		(at 275.59 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32965,7 +33561,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed0a854f-0208-4eb1-bb58-ac4bebf4d4ce")
 		(property "Reference" "#PWR041"
-			(at 273.05 138.43 0)
+			(at 275.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32974,7 +33570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 139.7 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32982,7 +33578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 144.78 0)
+			(at 275.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32991,7 +33587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 144.78 0)
+			(at 275.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33000,7 +33596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 144.78 0)
+			(at 275.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33339,6 +33935,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "767c9ce5-7c3e-4949-a831-67fc2da7ab4d")
 		)
@@ -33431,6 +34035,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "11"
@@ -33743,6 +34355,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b85255d-ff32-4fe3-abf9-98fcfb004a85")
 		)
@@ -34035,6 +34655,14 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da52fb1c-2927-4e28-bb18-f009f4407941")
 		)
@@ -34229,6 +34857,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 167.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 167.64 26.67 0)
 			(effects
 				(font
@@ -34459,6 +35095,14 @@
 			)
 		)
 		(property "Part #" ""
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 186.69 77.47 0)
 			(effects
 				(font
@@ -34893,6 +35537,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99c738ad-cce1-4591-9ba7-a8be400ba039")
 		)
@@ -35096,6 +35748,14 @@
 				)
 			)
 		)
+		(property "Name" ""
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f13fca30-f7b5-4b45-a1ee-73ff82fbb2de")
 		)
@@ -35113,7 +35773,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
-		(at 270.51 158.75 0)
+		(at 270.51 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35122,16 +35782,16 @@
 		(fields_autoplaced yes)
 		(uuid "ffba9f3a-3e17-4db4-a3d7-a0716e554e94")
 		(property "Reference" "R25"
-			(at 273.05 158.7499 0)
+			(at 273.05 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 270.51 158.75 90)
+			(at 270.51 149.86 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -35140,7 +35800,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 268.732 158.75 90)
+			(at 272.288 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35149,7 +35809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35158,7 +35818,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35167,7 +35827,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35176,7 +35836,7 @@
 			)
 		)
 		(property "Stock" "51181774"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35185,7 +35845,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35194,7 +35854,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35203,7 +35863,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35212,7 +35872,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35221,7 +35881,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35230,7 +35890,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35239,7 +35899,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35248,7 +35908,7 @@
 			)
 		)
 		(property "Part" "0603WAF1002T5E"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35257,7 +35917,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35266,7 +35926,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35275,7 +35935,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35284,7 +35944,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35293,7 +35953,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35302,7 +35962,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35311,12 +35971,20 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 270.51 158.75 0)
+			(at 270.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
