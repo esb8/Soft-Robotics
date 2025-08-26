@@ -1,4 +1,4 @@
-25009333144537044
+25011089320208000
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100435,6 +100435,13 @@ HDR-TH_2P-P1.27-V-M
 0
 2
 2
+easyeda2kicad
+HDR-TH_4P-P1.00-V-M-R2-C2-S1.0
+
+
+0
+4
+4
 easyeda2kicad
 HDR-TH_5P-P1.27-V-M
 
