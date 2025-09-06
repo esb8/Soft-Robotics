@@ -7830,6 +7830,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_DPST_x2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:AO3401A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10554,9 +10728,9 @@
 		)
 		(uuid "03994157-86a1-4477-8f3b-747ae2225f63")
 	)
-	(text "XT30U-F\n"
+	(text "XT30U-M\n\n"
 		(exclude_from_sim no)
-		(at 139.7 161.798 0)
+		(at 139.7 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10737,12 +10911,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3948dc7c-469b-4013-a11e-34c8986bb9ad")
-	)
-	(junction
-		(at 144.78 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c815c6a-6528-433a-a28d-753f5dbbda16")
 	)
 	(junction
 		(at 261.62 101.6)
@@ -10931,7 +11099,7 @@
 		(uuid "b8432eab-7efb-4977-b626-affed372c35e")
 	)
 	(junction
-		(at 154.94 161.29)
+		(at 163.83 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc5969be-2cbd-4969-81cb-145915bed58c")
@@ -11338,16 +11506,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 146.05 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1841896a-2d51-4687-bdae-b112a587b8a6")
-	)
-	(wire
-		(pts
 			(xy 48.26 167.64) (xy 59.69 167.64)
 		)
 		(stroke
@@ -11418,7 +11576,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 156.21) (xy 144.78 156.21)
+			(xy 143.51 156.21) (xy 153.67 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11548,7 +11706,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 156.21) (xy 144.78 161.29)
+			(xy 153.67 156.21) (xy 153.67 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11655,16 +11813,6 @@
 			(type default)
 		)
 		(uuid "39c8678a-abf8-425f-be6f-42a86fddd194")
-	)
-	(wire
-		(pts
-			(xy 143.51 153.67) (xy 144.78 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a06dcad-3a9e-4140-9ebb-79ad70a8ff65")
 	)
 	(wire
 		(pts
@@ -11885,16 +12033,6 @@
 			(type default)
 		)
 		(uuid "589e3a56-d858-41b6-ae5d-d007b1fb5ec7")
-	)
-	(wire
-		(pts
-			(xy 144.78 153.67) (xy 149.86 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0da0b9-d137-4c2c-8949-9d3a71701514")
 	)
 	(wire
 		(pts
@@ -12218,7 +12356,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 161.29) (xy 154.94 161.29)
+			(xy 154.94 185.42) (xy 157.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a80c1d-6b80-4840-b5f0-d82c795d5058")
+	)
+	(wire
+		(pts
+			(xy 153.67 161.29) (xy 163.83 161.29)
 		)
 		(stroke
 			(width 0)
@@ -12548,6 +12696,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 185.42) (xy 142.24 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b8f6ea-446d-4425-b15a-f1eb8755832b")
+	)
+	(wire
+		(pts
 			(xy 106.68 111.76) (xy 106.68 106.68)
 		)
 		(stroke
@@ -12578,23 +12736,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 153.67) (xy 161.29 153.67)
+			(xy 168.91 153.67) (xy 170.18 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4a763cf-a707-49c9-9dfe-91e6b974a0e5")
-	)
-	(wire
-		(pts
-			(xy 144.78 144.78) (xy 144.78 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d1c86e-1d2d-4d20-a73d-883f3678b48f")
 	)
 	(wire
 		(pts
@@ -13395,6 +13543,16 @@
 			(justify left bottom)
 		)
 		(uuid "7e7464ee-6d07-44aa-8a26-5bcd5f5693e1")
+	)
+	(label "I2C_SCL"
+		(at 142.24 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ea91306-134f-4f05-aa7e-575e23818d58")
 	)
 	(label "IN2_B"
 		(at 220.98 152.4 180)
@@ -15770,6 +15928,81 @@
 			(project ""
 				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 149.86 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "252d787a-f0ae-420d-ae96-328a4a3f4012")
+		(property "Reference" "SW1"
+			(at 149.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 149.86 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c99a3189-2f11-4da5-a3a2-3012d96c88b8")
+		)
+		(pin "1"
+			(uuid "c7aa8a13-d6fb-4115-82bc-f282cf0d9e5d")
+		)
+		(pin "4"
+			(uuid "47759633-5f1a-4402-96e1-60987300fa5f")
+		)
+		(pin "3"
+			(uuid "a8cb91c0-01ee-4ae2-a874-1d19a6f8a858")
+		)
+		(instances
+			(project ""
+				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -22766,7 +22999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 161.29 0)
+		(at 163.83 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22775,7 +23008,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dec6d0a-fbf5-46b0-abfd-f3080df6e411")
 		(property "Reference" "#PWR02"
-			(at 154.94 167.64 0)
+			(at 163.83 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22784,7 +23017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 166.37 0)
+			(at 163.83 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22792,7 +23025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 161.29 0)
+			(at 163.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22801,7 +23034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 161.29 0)
+			(at 163.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22810,7 +23043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 161.29 0)
+			(at 163.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24302,7 +24535,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C99102"
+		(property "LCSC" "C99101"
 			(at 138.43 156.21 0)
 			(effects
 				(font
@@ -26129,7 +26362,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:JFC1206-1450FS")
-		(at 153.67 144.78 0)
+		(at 151.13 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26138,7 +26371,7 @@
 		(fields_autoplaced yes)
 		(uuid "9aa33a10-ebd0-4c91-8e72-4d822111f16f")
 		(property "Reference" "F1"
-			(at 153.67 138.43 0)
+			(at 151.13 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26146,7 +26379,7 @@
 			)
 		)
 		(property "Value" "BHFUSE BSMD1206C-1700T"
-			(at 153.67 140.97 0)
+			(at 151.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26155,7 +26388,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:F1206"
-			(at 153.67 152.4 0)
+			(at 151.13 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26164,7 +26397,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Surface-Mount-Fuses_4-5A-32V_C136350.html"
-			(at 153.67 154.94 0)
+			(at 151.13 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26173,7 +26406,7 @@
 			)
 		)
 		(property "Description" "150A Surface Mount Fuse 7A 32V 1206 Disposable fuses ROHS"
-			(at 153.67 144.78 0)
+			(at 151.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26182,7 +26415,7 @@
 			)
 		)
 		(property "LCSC Part" "C41367230"
-			(at 153.67 157.48 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26191,7 +26424,7 @@
 			)
 		)
 		(property "LCSC" "C41367230"
-			(at 153.67 144.78 0)
+			(at 151.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26435,6 +26668,73 @@
 			(project ""
 				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec03b05-6211-43f8-b346-87f791711389")
+		(property "Reference" "#PWR038"
+			(at 163.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f49fc62e-c7f0-41ea-a2b1-0fe893c9dc83")
+		)
+		(instances
+			(project "soft_robot_cam"
+				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -28256,7 +28556,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:AO3401A")
-		(at 154.94 156.21 90)
+		(at 163.83 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28264,7 +28564,7 @@
 		(dnp no)
 		(uuid "b9b168dc-1c89-4ac5-9340-815943dbabcd")
 		(property "Reference" "Q3"
-			(at 156.972 158.496 90)
+			(at 165.862 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28272,7 +28572,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 154.94 148.844 90)
+			(at 163.83 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28280,7 +28580,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 167.64 156.21 0)
+			(at 176.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28289,7 +28589,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3401A_AO3401A_C15127.html"
-			(at 170.18 156.21 0)
+			(at 179.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28298,7 +28598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28307,7 +28607,7 @@
 			)
 		)
 		(property "LCSC Part" "C15127"
-			(at 172.72 156.21 0)
+			(at 181.61 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28316,7 +28616,7 @@
 			)
 		)
 		(property "Part #" ""
-			(at 154.94 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28324,7 +28624,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 154.94 156.21 90)
+			(at 163.83 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28333,7 +28633,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 154.94 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32941,7 +33241,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 161.29 153.67 270)
+		(at 170.18 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32949,7 +33249,7 @@
 		(dnp no)
 		(uuid "e758bd3a-0ea9-4f1a-999e-02bbddf910de")
 		(property "Reference" "#PWR09"
-			(at 157.48 153.67 0)
+			(at 166.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32958,7 +33258,7 @@
 			)
 		)
 		(property "Value" "+7.6V"
-			(at 163.068 151.13 90)
+			(at 171.958 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32966,7 +33266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 153.67 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32975,7 +33275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 153.67 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32984,7 +33284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 153.67 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33644,73 +33944,6 @@
 			(project "soft_robot_cam"
 				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecfcc35b-419b-4434-9faf-c29f4a28d7e0")
-		(property "Reference" "#PWR038"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44ac3e45-f6b7-49da-b642-88b771169275")
-		)
-		(instances
-			(project "soft_robot_cam"
-				(path "/8a7e5bec-e932-4403-8e68-78633cb41e92"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
