@@ -134,7 +134,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -4366,7 +4365,7 @@
 			(uuid "86e24695-554c-46db-b767-9109d0f27b3c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/evanb/Desktop/robot/easyeda2kicad.3dshapes/FPC-SMD_AFC07-S24ECA-00.wrl"
+		(model "${KIPRJMOD}/easyeda2kicad.3dshapes/FPC-SMD_FH12-24S-0.5SH-55.wrl"
 			(offset
 				(xyz 0 -1.48 -0)
 			)
@@ -4374,7 +4373,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7951,15 +7950,15 @@
 			(uuid "603dd88a-0aa5-40fa-baa0-3e7be9321cbd")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/evanb/Desktop/robot/easyeda2kicad.3dshapes/HDR-TH_4P-P1.27-V-M-R2-C2-S1.27_MH127V-12-04-0820.wrl"
+		(model "${KIPRJMOD}/easyeda2kicad.3dshapes/HDR-TH_4P-P1.00-V-M-R2-C2-S1.0.wrl"
 			(offset
-				(xyz 0 -0 0)
+				(xyz 0 -0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -24350,7 +24349,7 @@
 			(at 0 -1.695 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fdbd1e8d-b6c1-400b-bd50-3bb0c2c52b41")
+			(uuid "b66fa1a4-e574-4b4e-828e-c477ac9391c5")
 			(effects
 				(font
 					(size 1 1)
@@ -24361,7 +24360,7 @@
 		(property "Value" "Conn_01x05_Pin"
 			(at 0 6.775 0)
 			(layer "F.Fab")
-			(uuid "5e5c05f4-62d4-41df-bf4f-d7765f67ec63")
+			(uuid "80eebeb5-ef33-4e9f-b2fc-d0ca05e4f287")
 			(effects
 				(font
 					(size 1 1)
@@ -24374,7 +24373,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43e4bbb0-0bfb-426b-a277-cc773f3b2b99")
+			(uuid "83fa1514-a9ef-4eac-9529-ff88c5998795")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24387,7 +24386,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "432093d0-a081-426b-9b25-9c7e869b3f2e")
+			(uuid "ebfc0efc-1703-4d6c-8450-0846a8837945")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29358,7 +29357,7 @@
 			(uuid "1265609a-88b3-4ec5-8706-a50507196e16")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/evanb/Desktop/robot/easyeda2kicad.3dshapes/IND-SMD_L6.0-W6.0-H4.5.wrl"
+		(model "${KIPRJMOD}/easyeda2kicad.3dshapes/IND-SMD_L6.0-W6.0-H4.5.wrl"
 			(offset
 				(xyz -0 -0 -0)
 			)
