@@ -1,4 +1,5 @@
 #include "MPU6500.h"
+#include "TOF.h"
 #include "Magnet_Driver.h"
 #include <Arduino.h>
 #include <Wire.h>
@@ -9,7 +10,8 @@
 
   void setup() {
     Serial.begin(115200);
-// IMU 
+// IMU
+/*
     Wire.begin(PIN_I2C_SDA, PIN_I2C_SCL, 100000);
     Serial.printf("Calibrating IMU... keep board still for ~1s\r\n");
     void IMU_Calibrate(uint16_t samples, uint16_t delay_ms);
@@ -18,7 +20,25 @@
         acc_bias_counts[0], acc_bias_counts[1], acc_bias_counts[2],   
         gyr_bias_counts[0], gyr_bias_counts[1], gyr_bias_counts[2]);
   delay(50);
+*/
+//TOF 
+
+    Wire.begin(PIN_I2C_SDA, PIN_I2C_SCL, 100000);
+
+  // Wake VL53L0X by driving XSHUT high
+  pinMode(PIN_XSHUT, OUTPUT);
+  digitalWrite(PIN_XSHUT, HIGH);
+  delay(10);  // give it time to wake up
+
+  // Init sensor
+  if (!lox.begin()) {
+    Serial.println("Failed to boot VL53L0X sensor!");
+    while (1) delay(100);
+  }
+  Serial.println("VL53L0X ready!");
+}
 // Magnet Driver 
+/*
 #if (PIN_NSLEEP >= 0)
   pinMode(PIN_NSLEEP, OUTPUT);
   digitalWrite(PIN_NSLEEP, LOW);
@@ -33,9 +53,16 @@
   hbridge_coast();
   Serial.println("Magnet Driver ready.");
 }
-
+*/
   void loop() {
   readAndPrintIMU();
+    int distance = vl53ReadDistance();
+  if (distance >= 0) {
+    Serial.printf("Distance: %d mm\n", distance);
+  } else {
+    Serial.println("Out of range");
+  }
+  
   delay(300);
 }
 
