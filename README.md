@@ -38,20 +38,21 @@ This project features a soft-robotics controller built around an ESP32 with an o
 
 MCU
 ## Pinout
-CAMERA: PINS 4 to 14, 21.
-CAM_SDA: IO20
-CAM_SCL: IO3
-I_SENSE_A: IO14, ADC_CH3
-I_SENSE_B: IO2, ADC1_CH0
-S_PWM: IO1, ADC1_CH0
-SDA: IO42
-SCL: IO41
-XSHUT: IO40
-nFault_A: I039
-nFault_B: IO4
-IN1_A: IO38
-IN2_A: IO48
-IN1_B: IO47
-IN2_B: IO21
-LDR1,2: IO19, IO20
+- CAMERA: PINS 4 to 14, 21.
+- CAM_SDA: IO20
+- CAM_SCL: IO3
+- S_PWM: IO1, ADC1_CH0
+- SDA: IO42
+- SCL: IO41
+- XSHUT: IO40
+- nFault_A: I039
+- nFault_B: IO4
+- I_SENSE_A: IO14, ADC_CH3
+- I_SENSE_B: IO2, ADC1_CH0
+- IN1_A: IO38
+- IN2_A: IO48
+- IN1_B: IO47
+- IN2_B: IO21
+- LDR1: IO19
+- LDR2: IO5
 
