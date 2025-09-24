@@ -17,7 +17,3 @@
 #define HREF_GPIO_NUM  7
 #define PCLK_GPIO_NUM  13
 #define XCLK_GPIO_NUM  15
-
-#pragma once
-void cameraSetup();
-void cameraCapture();
