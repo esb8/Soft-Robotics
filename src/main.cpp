@@ -1,8 +1,15 @@
 #include "esp_camera.h"
-#define CAMERA_MODEL_ESP32S3_EYE
-#include "camera.h"
+#include <WiFi.h>
+#include <Arduino.h>
+#include "board_config.h"
 
-void cameraSetup() {
+constexpr char ssid[] = "cui028";
+constexpr char password[] = "cui028wifi";
+
+void startCameraServer();
+void setupLedFlash();
+
+void setup() {
   Serial.begin(115200);
   delay(1000);
 
@@ -35,34 +42,37 @@ void cameraSetup() {
   config.jpeg_quality = 12;
   config.fb_count     = 1;
 
-  if (psramFound()) {
-    config.jpeg_quality = 10;
-    config.fb_count     = 2;
-    config.grab_mode    = CAMERA_GRAB_LATEST;
-  }
-
   esp_err_t err = esp_camera_init(&config);
   if (err != ESP_OK) {
     Serial.printf("Camera init failed! Error 0x%x\n", err);
     while (true) { delay(1000); }
   }
 
-  Serial.println("Camera init successful!");
+  sensor_t *s = esp_camera_sensor_get();
+  s->set_vflip(s, 1);
+  s->set_brightness(s, 1);
+  s->set_saturation(s, 0);
+
+
+  WiFi.begin(ssid, password);
+  WiFi.setSleep(false);
+
+  Serial.print("WiFi connecting");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");
+
+  startCameraServer();
+
+  Serial.print("Camera Ready! Use 'http://");
+  Serial.print(WiFi.localIP());
+  Serial.println("' to connect");
 }
 
-void cameraCapture() {
-  // Capture one frame
-  camera_fb_t *fb = esp_camera_fb_get();
-  if (!fb) {
-    Serial.println("Frame capture failed");
-    delay(2000);
-    return;
-  }
-
-  Serial.printf("Captured image: %d bytes (%dx%d)\n", fb->len, fb->width, fb->height);
-
-  // Always return frame buffer when done
-  esp_camera_fb_return(fb);
-
-  delay(3000); // wait before capturing next frame
+void loop() {
+  // Do nothing. Everything is done in another task by the web server
+  delay(10000);
 }
