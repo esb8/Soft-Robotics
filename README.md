@@ -1,6 +1,6 @@
 # Soft Robotics PCB
 
-Electromagnet control, optical feedback, ADCs, and vision on a single board.  
+Motor control, optical feedback, ADCs, sensors, servos, and a camera on a single board.  
 This project features a soft-robotics controller built around an ESP32 with an onboard camera, driver stages for multiple electromagnets, photoresistor sensing, SPI breakouts, and a UART header for easy flashing.
 
 
@@ -17,6 +17,12 @@ This project features a soft-robotics controller built around an ESP32 with an o
 
 
 ## Media
+### Schematic 
+<img width="1276" height="874" alt="image" src="https://github.com/user-attachments/assets/9f45ea96-3302-4600-9bac-3ce35ebfb80c" />
+
+### PCB Layout
+<img width="971" height="929" alt="image" src="https://github.com/user-attachments/assets/069e9272-6496-45fa-8958-314af8e39d6f" />
+
 ### Front View
 <img width="787" height="800" alt="image" src="https://github.com/user-attachments/assets/745cd26e-8e00-4f58-bc77-62a3f7b1588d" />
 
@@ -36,7 +42,7 @@ This project features a soft-robotics controller built around an ESP32 with an o
 4. Boot from uploaded code
 4. Pull boot high (Switch OFF), Pull Enable Up and Down to reset the ESP32 (Switch On -> Switch Off).
 
-MCU
+
 ## Pinout
 - CAMERA: PINS 4 to 14, 21.
 - CAM_SDA: IO20
@@ -55,4 +61,20 @@ MCU
 - IN2_B: IO21
 - LDR1: IO19
 - LDR2: IO5
+  
+## Calculations
 
+### Trip Current (typ.)
+I_TRIP = V_REF / (R_IPROPI × A_IPROPI)  
+       = 3.3 / (2350 × 455 × 10^-6)  
+       ≈ 3.09 A
+
+### IPROPI Current at Trip
+I_IPROPI = I_TRIP × A_IPROPI  
+         = V_REF / R_IPROPI  
+         = 3.3 / 2350  
+         ≈ 1.40 mA
+
+### IPROPI Voltage at Trip
+V_IPROPI = I_IPROPI × R_IPROPI  
+         = 3.3 V
